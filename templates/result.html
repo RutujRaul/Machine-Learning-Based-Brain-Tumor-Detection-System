@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Brain Tumor Classification Result</h1>
+        <div class="result-box">
+            <h2>🧠 Prediction: {{ prediction }}</h2>
+            <p>📊 Confidence: {{ confidence }}</p>
+        </div>
+        <div class="image-preview">
+            <h3>Uploaded Image:</h3>
+            <img src="{{ image_url }}" alt="Uploaded Image" style="max-width: 300px; border-radius: 10px;">
+        </div>
+        <a href="/" class="btn">🔙 Upload Another Image</a>
+    </div>
+</body>
+</html>
