@@ -14,7 +14,7 @@ Parameter Tuning: Adjust patch size and stride via the UI for better performance
 Clone the repository:
 
 bash:
-git clone https://github.com/YourUsername/Machine-Learning-Based-Brain-Tumor-Detection-System.git
+git clone [https://github.com/YourUsername/Machine-Learning-Based-Brain-Tumor-Detection-System.git](https://github.com/RutujRaul/Machine-Learning-Based-Brain-Tumor-Detection-System.git)
 Navigate to the project directory:
 
 bash:
